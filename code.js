@@ -15,15 +15,12 @@ function addTooList() {
 // using a random event to choose a winner
 function chooseRandom() {
 
-
-
-
   var list = document.getElementById("list");
   var items = list.getElementsByTagName("li");
   var random = Math.floor(Math.random() * items.length);
   console.log(random);
   var winner = items[random].innerHTML;
- console.log(winner);
+  console.log(winner);
 
 
   document.getElementById("winner").innerHTML = winner;
@@ -42,5 +39,5 @@ async function colorfulWinnerText() {
   var colors = ["red", "blue", "green", "yellow", "purple", "orange"];
   var random = Math.floor(Math.random() * colors.length);
   winner.style.color = colors[random];
-  
+
 }

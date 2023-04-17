@@ -1,23 +1,26 @@
-body {background-color:beige;}
+body {
+    background-color: beige;
+}
 
 
 
-#info{
+#info {
 
-text-align: center;
+    text-align: center;
 
 }
 
-#add{
+#add {
 
     border: none;
     background-color: aquamarine;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+
 }
-#clear{
+
+#clear {
 
     border: none;
     background-color: aquamarine;
@@ -25,7 +28,8 @@ text-align: center;
     display: inline-block;
     font-size: 16px;
 }
-#random{
+
+#random {
 
     border: none;
     background-color: aquamarine;
