@@ -7,3 +7,29 @@ body {background-color:beige;}
 text-align: center;
 
 }
+
+#add{
+
+    border: none;
+    background-color: aquamarine;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+#clear{
+
+    border: none;
+    background-color: aquamarine;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#random{
+
+    border: none;
+    background-color: aquamarine;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

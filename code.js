@@ -14,6 +14,10 @@ function addTooList() {
 
 // using a random event to choose a winner
 function chooseRandom() {
+
+
+
+
   var list = document.getElementById("list");
   var items = list.getElementsByTagName("li");
   var random = Math.floor(Math.random() * items.length);
